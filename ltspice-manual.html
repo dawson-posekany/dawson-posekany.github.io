@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTspice User Manual - Dawson Posekany</title>
+    <!-- Using the same styles as your other pages for consistency -->
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6; 
+            max-width: 900px; /* A bit wider for the PDF */
+            margin: 20px auto; 
+            padding: 15px; 
+            background-color: #f9f9f9;
+        }
+        header { 
+            border-bottom: 2px solid #eee; 
+            padding-bottom: 10px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        nav { 
+            margin: 20px 0; 
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        nav a { 
+            margin-right: 15px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            color: #005a9c;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .project-description {
+            margin-bottom: 20px;
+        }
+        /* This style makes the PDF embed fill the page */
+        embed {
+            width: 100%;
+            height: 100vh; /* 100vh = 100% of the viewport height */
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LTspice User Manual Project</h1>
+        <p>A technical document written for ENGL 3140 at Iowa State University.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="resume.html">My Resume</a>
+        <a href="ltspice-manual.html">LTspice Manual Project</a>
+    </nav>
+
+    <main>
+        <div class="project-description">
+            <h2>Building and Analyzing a Basic Inverting Op-Amp Circuit</h2>
+            <p>
+                This user manual was created to help introductory electrical and computer 
+                engineering students bridge the gap between circuit theory and practical application. 
+                It provides step-by-step instructions for designing, simulating, and analyzing
+                a basic inverting op-amp circuit using LTspice software.
+            </p>
+            <p>
+                <a href="LTspice User Manual.pdf" download>Download Manual (PDF)</a>
+            </p>
+        </div>
+
+        <!-- This embeds your PDF. Make sure the filename matches! -->
+        <embed src="LTspice User Manual.pdf" type="application/pdf" />
+    </main>
+</body>
+</html>
